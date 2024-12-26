@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for body text */
+    background-color: #f0e7f4; /* Light lavender background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #ffffff; /* White background for the stopwatch */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive; /* Use Dancing Script for the title */
+    color: #d5006d; /* Bright pink color */
+}
+
+/* Clock Image Styles */
+.clock-image {
+    width: 100px; /* Set width of the clock image */
+    margin-top: 10px; /* Space between title and image */
+    margin-bottom: 10px;
+}
+
+.display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #6a1b9a; /* Purple color for display */
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d5006d; /* Bright pink background */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #b0004c; /* Darker pink on hover */
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+#lapList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#lapList li {
+    background-color: #ffccff; /* Light pink for lap times */
+    padding: 5px;
+}
